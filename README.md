@@ -1,54 +1,46 @@
-Maze Game
+# Maze Game
+
 A simple Python maze game built with Pygame. Navigate through a randomly generated maze, leave a glowing trail, and reach the goal.
 
-Features
-Smooth player movement
+## Features
 
-Fading golden trail behind the player
+- Smooth player movement with easing
+- Fading golden trail behind the player
+- Multiple color themes (biomes)
+- Instruction modal at start
+- Step counter (ignores bumping into walls)
+- Fully adaptive to your screen size
 
-Multiple color themes (biomes)
+## Controls
 
-Instruction modal at start
+- **Arrow keys / WASD**: Move player
+- **R**: Restart the maze
+- **1–5**: Switch color theme
+- **Space**: Close instructions modal at start
+- **ESC** or window close: Quit the game
 
-Step counter (ignores bumping into walls)
+## Requirements
 
-Fully adaptive to your screen size
+- Python 3.x
+- `pygame`
 
-Controls
-Arrow keys / WASD: Move player
+## Setup
 
-R: Restart the maze
+1. Install Pygame:
+   ```bash
+   pip install pygame
+   ```
 
-1–5: Switch color theme
+2. Run the game:
+   ```bash
+   python maze_game.py
+   ```
 
-ESC or close button: Quit game
+## Notes
 
-Space: Close instructions modal at start
+- The default maze grid is 25×25 cells for a balanced challenge.
+- Adjust `ROWS` and `COLS` in the script for different difficulty.
+- The player leaves a golden trail that fades over time.
+- Switch between unique color themes anytime using the number keys.
 
-Requirements
-Python 3.x
-
-pygame
-
-Setup
-Install Pygame:
-
-nginx
-Copy
-Edit
-pip install pygame
-Run the game:
-
-nginx
-Copy
-Edit
-python maze_game.py
-Notes
-The maze grid size is adaptive but defaults to 25×25 cells for balanced difficulty.
-
-You can tweak ROWS and COLS to make the maze easier or harder.
-
-The player leaves a golden trail that fades with time.
-
-Change color themes anytime for a fresh vibe.
-
+Enjoy exploring the maze!
