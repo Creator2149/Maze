@@ -40,7 +40,7 @@ A simple Python maze game built with Pygame. Navigate through a randomly generat
 ## Notes
 
 - The default maze grid is 30x30 cells for a balanced challenge.
-- Adjust `ROWS` and `COLS` in the script for different difficulty.
+- Adjust `ROWS` and `COLS` in the script for different difficulty (they do not have to be the same, the maze can also be a rectangle)
 - The player leaves a golden trail that fades over time.
 - Switch between unique color themes anytime using the number keys.
 
