@@ -6,8 +6,8 @@ A simple Python maze game built with Pygame. Navigate through a randomly generat
 
 - Smooth player movement with easing
 - Fading golden trail behind the player
-- Multiple color themes (biomes)
-- Instruction modal at start
+- Multiple color themes
+- Instruction popup at start
 - Step counter (ignores bumping into walls)
 - Fully adaptive to your screen size
 
@@ -17,6 +17,7 @@ A simple Python maze game built with Pygame. Navigate through a randomly generat
 - **R**: Restart the maze
 - **1–5**: Switch color theme
 - **Space**: Close instructions modal at start
+- **T**: Toggle step counter
 - **ESC** or window close: Quit the game
 
 ## Requirements
@@ -33,12 +34,12 @@ A simple Python maze game built with Pygame. Navigate through a randomly generat
 
 2. Run the game:
    ```bash
-   python maze_game.py
+   python main.py
    ```
 
 ## Notes
 
-- The default maze grid is 25×25 cells for a balanced challenge.
+- The default maze grid is 30x30 cells for a balanced challenge.
 - Adjust `ROWS` and `COLS` in the script for different difficulty.
 - The player leaves a golden trail that fades over time.
 - Switch between unique color themes anytime using the number keys.
