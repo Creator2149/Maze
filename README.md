@@ -4,7 +4,7 @@ A simple Python maze game built with Pygame. Navigate through a randomly generat
 
 ## Features
 
-- Smooth player movement with easing
+- Smooth player movement
 - Fading golden trail behind the player
 - Multiple color themes
 - Instruction popup at start
